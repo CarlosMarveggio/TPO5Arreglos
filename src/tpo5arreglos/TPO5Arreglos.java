@@ -8,11 +8,18 @@ package tpo5arreglos;
  */
 public class TPO5Arreglos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logik here
+                
+        int bidim[][] = {{2, 5}, {7, 8, 9},{45,5,69,88}};
+        int num[]= {2,8,9,12};
+        
+        Arreglo.sumarLista(num);
+        Arreglo.buscarMayor(bidim);
+        
+        Arreglo.cuentaVocales("contar vocales");
+       
+        System.out.println("La cantidad de caracteres es "+Arreglo.cuentaCaracteres("contar vocales"));
+        System.out.println("");
     }
 
 }
